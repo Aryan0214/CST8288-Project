@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register</title></head>
+<body>
+    <h2>Register</h2>
+    <form action="login" method="post">
+        <input type="hidden" name="action" value="register">
+        Name: <input type="text" name="name" required><br>
+        Email: <input type="text" name="email" required><br>
+        Password: <input type="password" name="password" required><br>
+        Role: <select name="role">
+            <option value="Manager">Manager</option>
+            <option value="Operator">Operator</option>
+        </select><br>
+        <input type="submit" value="Register">
+    </form>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
