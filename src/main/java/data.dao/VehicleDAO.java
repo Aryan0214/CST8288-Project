@@ -3,7 +3,6 @@ package data;
 import business.Vehicle;
 import java.io.IOException;
 import java.sql.*;
-import java.util.random;
 
 /**
  * Data Access Object for vehicle operations.
